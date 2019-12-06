@@ -74,6 +74,7 @@ p {
 .navigation {
     display: flex;
     align-items: baseline;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -197,4 +198,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-container {
+    padding: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle-entry {
+    width: 48%;
+    margin-bottom: 50px;
+    border-bottom: 1px dotted black;
+}
+
+.middle-entry h2 {
+    margin-top: 15px;
+}
+
+.middle-entry p {
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.about-bottom {
+    padding: 0px 10px 40px 10px;
 }
