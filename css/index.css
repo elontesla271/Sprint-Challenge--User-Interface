@@ -71,10 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.navigation {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +127,46 @@ p {
     justify-content: center;
 }
 
+#one {
+    background: teal;
+}
+
+#two {
+    background: gold;
+}
+
+#three {
+    background: cadetblue;
+}
+
+#four {
+    background: coral;
+}
+
+#five {
+    background: crimson;
+}
+
+#six {
+    background: forestgreen;
+}
+
+#seven {
+    background: darkorchid;
+}
+
+#eight {
+    background: hotpink;
+}
+
+#nine {
+    background: indigo;
+}
+
+#ten {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +198,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-container {
+    padding: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle-entry {
+    width: 48%;
+    margin-bottom: 50px;
+    border-bottom: 1px dotted black;
+}
+
+.middle-entry h2 {
+    margin-top: 15px;
+}
+
+.middle-entry p {
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.about-bottom {
+    padding: 0px 10px 40px 10px;
 }
